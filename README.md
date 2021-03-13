@@ -9,7 +9,7 @@
 
 The project used a data set from Figure Eight that contained labeled disaster messages received by an aid organization. A multi-output Random Forrest classifier was trained using supervised learning with a natural language processing (NLP).
 
-An ETL pipeline was created, extracting data from csv files, cleaning and loading into an SQL database. A machine learning pipeline was created to extract the NLP features and then optimize the algorithm using grid search. A web app was then developed that extracts the initial data from the database and provides some interactive visual summaries. Users are also able to enter their own message to be classified by the algorithm.
+
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
 
